@@ -1,0 +1,50 @@
+.hero {
+  padding-top: 156px;
+  height: 100vh;
+}
+
+.wrap {
+  display: grid;
+  grid-template-columns: 600px 768px;
+  justify-content: space-between;
+}
+
+.item {
+
+}
+
+.title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 60px;
+}
+
+.text {
+  margin-top: 36px;
+
+  p {
+    font-size: 20px;
+    line-height: 36px;
+    span {
+      font-weight: 600;
+    }
+  }
+}
+
+.btn {
+  margin-top: 36px;
+}
+
+.media {
+  position: relative;
+}
+
+.laptop {
+  //max-height: 473px;
+}
+
+.iphone {
+  position: absolute;
+  top: 36px;
+  right: 0;
+}
